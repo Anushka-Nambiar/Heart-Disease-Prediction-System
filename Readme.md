@@ -23,6 +23,28 @@ There are twelve attributes in the dataset as follows:
 - ST_Slope: the slope of the peak exercise ST segment [Up: upsloping, Flat: flat, Down: downsloping]
 - HeartDisease: output class [1: heart disease, 0: Normal]
 
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/Anushka-Nambiar/Heart-Disease-Prediction-System
+```
+Install the dependencies
+```bash
+  pip install pandas
+  pip install matplotlib
+  pip install seaborn
+```
+Run the application
+
+```bash
+  python manage.py runserver
+```
+
+
+
 [Dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction)
 
 [Demo Video](https://drive.google.com/file/d/1XkIsILVYa79pG7EVNeoJgMchiAeNPOBs/view?usp=sharing)
